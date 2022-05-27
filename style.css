@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://illustrators.ru/uploads/illustration/image/460519/460519_original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: top; 
+}
+#container{
+    background-color: rgba(235, 163, 76, 0.507);
+    width: 30%;
+    height: 600px;
+    padding: 40px;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 20px;
+    border: 1px solid rgb(20, 20, 204);
+
+}
+h2{
+    font-family: 'Neucha', cursive;
+    font-size: 30px;
+}
+#guess{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 20, 204);
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    width: 55%;
+    margin-top: 50px;
+    
+}
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 20, 204);
+    color: blue;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.btnReset{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 20, 204);
+    color: blue;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.guessesNumbers{
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    border: 1px solid rgb(20, 20, 204);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(233, 229, 229);
+}
+@media all and (max-width: 800px) {
+    #container{
+        width: 250px;
+        height: 450px;
+        margin: auto;
+
+    }
+    h2{
+        font-size: 20px;
+    }
+    #guess{
+        width: 80%;
+        font-size: 15px;
+    }
+    #btn{
+        font-size: 15px;
+    }
+    .guessesNumbers{
+        font-size: 15px;
+    }
+}
